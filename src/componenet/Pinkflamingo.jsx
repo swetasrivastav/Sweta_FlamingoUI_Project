@@ -7,7 +7,7 @@ const Pinkflamingo = () => {
   return (
     <>
    
-       <div className='lg:w-[1050px] bg-[#fff2f8] lg:h-96 mt-10  lg:ml-52'>
+       <div className='lg:w-[1050px] bg-[#fff2f8] lg:h-96 mt-8  lg:ml-52'>
         <div className='p-6'>
 
 <h1 className='font-extrabold lg:text-5xl text-center'>Why PINK FLAMINGO ?</h1>

@@ -34,7 +34,7 @@ const Product = () => {
         </div>
     </div>
   </div>
-    <div className='flex lg:flex-row flex-col lg:-space-x-16 justify-center mt-4 '>
+    <div className='flex lg:flex-row flex-col lg:-space-x-16 justify-center mt-4 ml-6 '>
   <div>
     <div>
 
