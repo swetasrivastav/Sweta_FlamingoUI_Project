@@ -23,7 +23,7 @@ import product16 from "../assets/productimage/product16.svg"
 const Product = () => {
   return (
     <>
-     <div className='lg:ml-72 ml-10'>
+     <div className='lg:ml-72 ml-20'>
     <p className=' text-sm font-medium mt-2'>Product  Dhoop Cones  Jar Cones</p>
     <div className='flex gap-4  mt-2'>
         <div className='w-24 h-8 rounded-full border-2'>
@@ -34,7 +34,7 @@ const Product = () => {
         </div>
     </div>
   </div>
-    <div className='flex lg:flex-row flex-col lg:-space-x-16 justify-center mt-4 ml-6 '>
+    <div className='flex lg:flex-row flex-col lg:-space-x-16 justify-center mt-4 lg:mx-0 mx-16 '>
   <div>
     <div>
 
@@ -92,7 +92,7 @@ SAC Incense</h3>
 </div>
 </div>
 {/* 2nd row */}
-<div className='flex lg:flex-row flex-col lg:-space-x-16 justify-center mt-4 '>
+<div className='flex lg:flex-row flex-col lg:-space-x-16 justify-center mt-4 lg:mx-0 mx-16 '>
   <div>
     <div>
 
@@ -153,7 +153,7 @@ Sage INCENSE CONES
 </div>
 </div>
     {/* 3rd row */}
-    <div className='flex lg:flex-row flex-col lg:-space-x-16  justify-center mt-4 '>
+    <div className='flex lg:flex-row flex-col lg:-space-x-16  justify-center mt-4 lg:mx-0 mx-16 '>
   <div>
     <div>
 <img src={product09} alt='' className='w-72 h-72'/>
@@ -213,7 +213,7 @@ Orange Blossom INCENSE CONES
 </div>
 </div>
 {/* 4th row */}
-<div className='flex lg:flex-row flex-col lg:-space-x-16 justify-center mt-4 '>
+<div className='flex lg:flex-row flex-col lg:-space-x-16 justify-center mt-4 lg:mx-0 mx-16 '>
   <div>
     <div>
 <img src={product13} alt='' className='w-72 h-72'/>
@@ -273,11 +273,11 @@ Sage INCENSE CONES
 </div>
 </div>
 <div className="lg:space-x-4  text-center my-20">
-  <button className=" rounded-full h-10 w-10 text-white bg-[#E08468] btn-active">1</button>
-  <button className=" h-10 w-10 rounded-full bg-white ">2</button>
-  <button className=" h-10 w-10 rounded-full bg-white">3</button>
-  <button className=" h-10 w-10 rounded-full bg-white">4</button>
-  <button className=" h-10 w-10 rounded-full bg-white">5</button>
+  <button className=" rounded-full h-10 w-10 text-white text-base font-semibold bg-gradient-to-r from-[#E08468] via-white/30 to-[#E08468] btn-active">1</button>
+  <button className=" h-10 w-10 rounded-full bg-white text-base font-semibold ">2</button>
+  <button className=" h-10 w-10 rounded-full bg-white text-base font-semibold">3</button>
+  <button className=" h-10 w-10 rounded-full bg-white text-base font-semibold">4</button>
+  <button className=" h-10 w-10 rounded-full bg-white text-base font-semibold">5</button>
   <button className="text-base font-medium text-[#E08468]">Next</button>
 </div>
     </>
