@@ -272,7 +272,7 @@ Sage INCENSE CONES
 </div>
 </div>
 </div>
-<div className="lg:space-x-4  text-center mt-20">
+<div className="lg:space-x-4  text-center my-20">
   <button className=" rounded-full h-10 w-10 text-white bg-[#E08468] btn-active">1</button>
   <button className=" h-10 w-10 rounded-full bg-white ">2</button>
   <button className=" h-10 w-10 rounded-full bg-white">3</button>
