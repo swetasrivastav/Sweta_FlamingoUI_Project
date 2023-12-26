@@ -23,9 +23,9 @@ import product16 from "../assets/productimage/product16.svg"
 const Product = () => {
   return (
     <>
-     <div>
-    <p className='lg:ml-[270px] text-sm font-medium mt-1'>Product  Dhoop Cones  Jar Cones</p>
-    <div className='flex gap-4 lg:ml-[270px] mt-2'>
+     <div className='lg:ml-72 ml-10'>
+    <p className=' text-sm font-medium mt-2'>Product  Dhoop Cones  Jar Cones</p>
+    <div className='flex gap-4  mt-2'>
         <div className='w-24 h-8 rounded-full border-2'>
             <p className='px-4 py-1 text-sm font-normal'>Price ($)</p>
         </div>
@@ -272,14 +272,13 @@ Sage INCENSE CONES
 </div>
 </div>
 </div>
-<div className="space-x-4 text-center mt-20">
+<div className="lg:space-x-4  text-center mt-20">
   <button className=" rounded-full h-10 w-10 text-white bg-[#E08468] btn-active">1</button>
   <button className=" h-10 w-10 rounded-full bg-white ">2</button>
   <button className=" h-10 w-10 rounded-full bg-white">3</button>
   <button className=" h-10 w-10 rounded-full bg-white">4</button>
   <button className=" h-10 w-10 rounded-full bg-white">5</button>
   <button className="text-base font-medium text-[#E08468]">Next</button>
-
 </div>
     </>
   )

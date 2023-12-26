@@ -41,16 +41,13 @@ const Home = () => {
    <div >
    <img src={additemicon} alt='logo' /> 
 </div>
-  
    <div className='bg-[#fa5c98] lg:w-8 lg:h-8 w-6 h-6 rounded-full lg:ml-8'>
    <img src={Vector} alt='logo' className='lg:mx-2.5 lg:mt-2 mx-1.5 mt-1' /> 
    </div>
-<p className='text-sm  font-bold text-[#301F4A] lg:ml-4'>SIGN IN / SIGN UP</p>
+<p className='text-sm  font-bold text-black lg:ml-4'>SIGN IN / SIGN UP</p>
    </div>
    </div>
-
-
-    </div>
+   </div>
   
     
     </>
