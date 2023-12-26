@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Home from './componenet/Home'
+import Transformyourmind from './componenet/Transformyourmind'
+import OurTopCategories from './componenet/OurTopCategories'
+import Pinkflamingo from './componenet/Pinkflamingo'
+import Blog from './componenet/Blog'
+import Connect from './componenet/Connect'
+import Footer from './componenet/Footer'
+import Navbar from './componenet/Navbar'
+import Product from "./componenet/Product"
 
-function App() {
+import { BrowserRouter, Routes,Route } from 'react-router-dom'
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <div>
+   <BrowserRouter>
+    <Home/> 
+    <Navbar/>
+    <Routes>
+      <Route path="Product" element={<Product/>}/>
+      </Routes>
+      </BrowserRouter>
+  <Transformyourmind/>
+    <OurTopCategories/>
+    <Pinkflamingo/>
+    <Blog/>
+    <Connect/> 
+    <Footer/> 
+   
+ 
+      </div>
+  )
 }
 
-export default App;
+export default App
