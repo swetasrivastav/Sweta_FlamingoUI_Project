@@ -11,7 +11,7 @@ const Blog = () => {
 <div className='my-8 text-center lg:text-5xl text-xl font-extrabold'>
 <h1>Our Latest Blogs</h1>
 </div>
-<div className='flex  lg:flex-row flex-col mb-20 gap-6 lg:ml-52'>
+<div className='flex  lg:flex-row flex-col mb-20 gap-6 lg:ml-52 ml-6'>
     <div className='bg-white w-[330px] h-[520px] shadow-lg rounded-lg'>
     <img src={blog01} alt='blog01' className=''/>
 <div>
